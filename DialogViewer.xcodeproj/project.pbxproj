@@ -14,6 +14,8 @@
 		E7146FAF1F3C5F3A0090D940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7146FAD1F3C5F3A0090D940 /* LaunchScreen.storyboard */; };
 		E7146FBA1F3C5F3A0090D940 /* DialogViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7146FB91F3C5F3A0090D940 /* DialogViewerTests.swift */; };
 		E7146FC51F3C5F3A0090D940 /* DialogViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7146FC41F3C5F3A0090D940 /* DialogViewerUITests.swift */; };
+		E7146FD31F3C6B4B0090D940 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7146FD21F3C6B4B0090D940 /* ContentCell.swift */; };
+		E7146FD51F3C8B390090D940 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7146FD41F3C8B390090D940 /* HeaderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E7146FC01F3C5F3A0090D940 /* DialogViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialogViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7146FC41F3C5F3A0090D940 /* DialogViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewerUITests.swift; sourceTree = "<group>"; };
 		E7146FC61F3C5F3A0090D940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7146FD21F3C6B4B0090D940 /* ContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		E7146FD41F3C8B390090D940 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				E7146FAB1F3C5F3A0090D940 /* Assets.xcassets */,
 				E7146FAD1F3C5F3A0090D940 /* LaunchScreen.storyboard */,
 				E7146FB01F3C5F3A0090D940 /* Info.plist */,
+				E7146FD21F3C6B4B0090D940 /* ContentCell.swift */,
+				E7146FD41F3C8B390090D940 /* HeaderCell.swift */,
 			);
 			path = DialogViewer;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7146FD51F3C8B390090D940 /* HeaderCell.swift in Sources */,
+				E7146FD31F3C6B4B0090D940 /* ContentCell.swift in Sources */,
 				E7146FA71F3C5F3A0090D940 /* ViewController.swift in Sources */,
 				E7146FA51F3C5F3A0090D940 /* AppDelegate.swift in Sources */,
 			);
